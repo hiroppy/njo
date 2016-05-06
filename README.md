@@ -1,5 +1,7 @@
 # node-jo
 
+[![Build Status](https://travis-ci.org/abouthiroppy/njo.svg?branch=master)](https://travis-ci.org/abouthiroppy/njo)
+
 `njo` creates JSON objects.
 
 ## Install
@@ -21,7 +23,8 @@ $ njo fruits=[apple,orange] favorite=pineapple
   "favorite": "pineapple"
 }
 
-if you want to create nested objects
+# if you want to create nested objects
+
 $ njo fruits[apple][name]=[hoge,fuga] fruits[orange][name]=piyo
 {
   "fruits": {
