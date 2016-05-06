@@ -1,6 +1,7 @@
 # node-jo
 
 [![Build Status](https://travis-ci.org/abouthiroppy/njo.svg?branch=master)](https://travis-ci.org/abouthiroppy/njo)
+[![codecov](https://codecov.io/gh/abouthiroppy/njo/branch/master/graph/badge.svg)](https://codecov.io/gh/abouthiroppy/njo)
 
 `njo` creates JSON objects.
 
