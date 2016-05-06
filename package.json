@@ -1,5 +1,5 @@
 {
-  "name": "jo",
+  "name": "njo",
   "version": "0.1.0",
   "description": "njo creates JSON from a shell",
   "main": "lib/index.js",
@@ -12,9 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abouthiroppy/jo.git"
+    "url": "git+https://github.com/abouthiroppy/njo.git"
   },
-  "author": "",
+  "keywords": [
+    "njo",
+    "node-jo",
+    "json",
+    "shell",
+    "command"
+  ],
+  "author": {
+    "name": "abouthiroppy",
+    "email": "hello@about-hiroppy.com",
+    "url": "http://about-hiroppy.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/abouthiroppy/jo/issues"
@@ -24,11 +35,12 @@
   ],
   "homepage": "https://github.com/abouthiroppy/jo#readme",
   "dependencies": {
-    "chai": "^3.5.0",
     "commander": "^2.9.0",
-    "istanbul": "^0.4.3",
-    "lodash": "^4.11.2",
-    "mocha": "^2.4.5"
+    "lodash": "^4.11.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5"
+  }
 }
