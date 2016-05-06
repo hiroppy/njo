@@ -3,3 +3,5 @@ language: node_js
 node_js:
   - 4.2
   - 6.0
+notifications:
+  slack: about-hiroppy:rzKYJ3zRPzBaak3TeaTmPSH5

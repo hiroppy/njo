@@ -7,7 +7,7 @@
     "njo": "lib/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "lint": "eslint ."
   },
   "repository": {
@@ -24,7 +24,10 @@
   ],
   "homepage": "https://github.com/abouthiroppy/jo#readme",
   "dependencies": {
+    "chai": "^3.5.0",
     "commander": "^2.9.0",
-    "lodash": "^4.11.2"
-  }
+    "lodash": "^4.11.2",
+    "mocha": "^2.4.5"
+  },
+  "devDependencies": {}
 }
