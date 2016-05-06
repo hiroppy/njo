@@ -19,11 +19,6 @@
         "SwitchCase": 1
       }],
       "require-jsdoc": 1,
-      "key-spacing": [2, {
-        "beforeColon": false,
-        "afterColon" : true,
-        "align"      : "colon"
-      }],
       "linebreak-style": [2, "unix"],
       "lines-around-comment": [2, {
         "beforeLineComment": true,
@@ -75,6 +70,7 @@
     "env": {
       "es6": true,
       "node": true,
+      "mocha": true
     },
     "extends": "eslint:recommended"
 }

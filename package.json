@@ -10,6 +10,9 @@
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec",
     "lint": "eslint ."
   },
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abouthiroppy/njo.git"
@@ -41,6 +44,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "istanbul": "^0.4.3",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "pre-commit": "^1.1.2"
   }
 }
