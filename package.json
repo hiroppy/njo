@@ -1,0 +1,30 @@
+{
+  "name": "jo",
+  "version": "0.1.0",
+  "description": "njo creates JSON from a shell",
+  "main": "lib/index.js",
+  "bin": {
+    "njo": "lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abouthiroppy/jo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abouthiroppy/jo/issues"
+  },
+  "engines": [
+    "node >=4.0.0"
+  ],
+  "homepage": "https://github.com/abouthiroppy/jo#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "lodash": "^4.11.2"
+  }
+}
