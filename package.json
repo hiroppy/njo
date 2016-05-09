@@ -1,6 +1,6 @@
 {
   "name": "njo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "njo creates JSON from a shell",
   "main": "lib/index.js",
   "bin": {
