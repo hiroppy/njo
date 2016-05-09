@@ -31,12 +31,12 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abouthiroppy/jo/issues"
+    "url": "https://github.com/abouthiroppy/njo/issues"
   },
   "engines": [
     "node >=4.0.0"
   ],
-  "homepage": "https://github.com/abouthiroppy/jo#readme",
+  "homepage": "https://github.com/abouthiroppy/njo#readme",
   "dependencies": {
     "commander": "^2.9.0",
     "lodash": "^4.11.2"
